@@ -4,9 +4,12 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
+	"ai": {
+		"binding": "AI"
+	},
 	"name": "ocr-llm-service",
 	"main": "src/entry.py",
-	"compatibility_date": "2025-09-27",
+	"compatibility_date": "2026-01-13",
 	"compatibility_flags": [
 		"python_workers"
 	],
